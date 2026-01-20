@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="96" fill="#FFF7ED"/>
+  
+  <!-- Main Tag Shape -->
+  <g transform="translate(50, 45)">
+    <!-- Tag Shadow/Depth -->
+    <path d="M10 30 L50 0 L90 30 V110 H10 V30 Z" fill="#C2410C" opacity="0.2" transform="translate(4, 4)"/>
+    
+    <!-- Tag Body -->
+    <path d="M10 30 L50 0 L90 30 V110 H10 V30 Z" fill="#F97316" stroke="#431407" stroke-width="5" stroke-linejoin="round"/>
+    
+    <!-- Top Hole Reinforcement -->
+    <circle cx="50" cy="25" r="8" fill="#FFF7ED" stroke="#431407" stroke-width="4"/>
+    
+    <!-- Inner Design: Horizontal Lines (Contract style) or Star -->
+    <rect x="25" y="50" width="50" height="6" rx="3" fill="white" opacity="0.9"/>
+    <rect x="25" y="65" width="50" height="6" rx="3" fill="white" opacity="0.9"/>
+    <rect x="25" y="80" width="30" height="6" rx="3" fill="white" opacity="0.9"/>
+    
+    <!-- Star Stamp (Promotion indicator) -->
+    <circle cx="70" cy="85" r="14" fill="#431407"/>
+    <path d="M70 76 L73 83 H80 L75 87 L77 94 L70 90 L63 94 L65 87 L60 83 H67 L70 76 Z" fill="#F97316"/>
+  </g>
+</svg>
